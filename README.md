@@ -34,7 +34,7 @@
 
 ---
 
-*Open to DS / DA / ML internship opportunities for 2026–27*## Hi there 👋
+*Open to DS / DA / ML internship opportunities for 2026–27*
 
 <!--
 **Diksha159457/Diksha159457** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
