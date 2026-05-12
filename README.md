@@ -3,7 +3,7 @@
 🎓 Final-year B.Tech IT student | Gorakhpur, UP  
 🔍 Specializing in **Data Science · NLP · Machine Learning**  
 🛠️ Currently building: Customer churn predictor + Hindi NLP toolkit  
-📫 Reach me: [LinkedIn](https://www.linkedin.com/in/diksha-shahi) · dikshashahi299@email.com
+📫 Reach me: [LinkedIn](https://www.linkedin.com/in/diksha-shahi) · dikshashahi299@gmail.com
 
 ---
 
