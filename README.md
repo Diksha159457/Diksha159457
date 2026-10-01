@@ -19,14 +19,25 @@
 - **GATE** — an internal multi-provider LLM gateway (FastAPI) with budget-enforcement middleware, cost-aware model routing, and Docker/Compose deployment — the sole gateway for every metered LLM request on the platform
 - **Axon Code** — an AI-assisted VS Code extension (DRI), including a repository-indexing + embeddings pipeline (ChromaDB, pgvector) that powers the assistant's context retrieval
 
-### 🧠 Featured projects
+### 🧠 Featured AI projects
 
-| Project | What it does | Stack |
-|---|---|---|
-| [**genesis-ai-demo**](https://github.com/Diksha159457/genesis-ai-demo) | Bilingual voice-AI RAG showroom concierge — Whisper → GPT-4o → ChromaDB → TTS, built for a client demo pitch | FastAPI, React, OpenAI, ChromaDB |
-| [**Grid07**](https://github.com/Diksha159457/grid07) | FAISS-based persona routing + a 3-node LangGraph RAG pipeline, wrapped in a 4-layer prompt-injection defense | Python, FAISS, LangGraph |
-| [**Ai-scenario-writer**](https://github.com/Diksha159457/Ai-scenario-writer) | LLM scenario-generation engine with Pydantic-validated structured output and automatic retry on malformed responses | Python, Groq API, Pydantic |
-| [**my-ai-project**](https://github.com/Diksha159457/my-ai-project) | AI agent that reviews git diffs in real time — bugs, vulnerabilities, PR quality score — with CI/CD integration | Python, Groq API, GitHub Actions |
+| Project | What it does | Engineering highlights | Status |
+|---|---|---|---|
+| [**genesis-ai-demo**](https://github.com/Diksha159457/genesis-ai-demo) | Bilingual voice-AI RAG showroom concierge: Whisper → GPT-4o → ChromaDB → TTS, built for a client pitch | FastAPI + React, lead capture, Docker | |
+| [**Grid07**](https://github.com/Diksha159457/grid07) | FAISS persona routing + a 3-node LangGraph pipeline behind a 4-layer prompt-injection defense | Measured on a labelled attack set: **F1 0.58 → 0.97**, 0 false positives; CI quality gate | [![CI](https://github.com/Diksha159457/grid07/actions/workflows/ci.yml/badge.svg)](https://github.com/Diksha159457/grid07/actions/workflows/ci.yml) |
+| [**AI Code Review Assistant**](https://github.com/Diksha159457/my-ai-project) | LLM reviewer for git diffs that comments on pull requests | Reviews its own PRs via GitHub Action; per-file diff chunking, schema-validated output, self-repairing retries | [![CI](https://github.com/Diksha159457/my-ai-project/actions/workflows/ci.yml/badge.svg)](https://github.com/Diksha159457/my-ai-project/actions/workflows/ci.yml) |
+| [**Ai-scenario-writer**](https://github.com/Diksha159457/Ai-scenario-writer) | Generates structured workplace-training scenarios in English and Hindi | Prompt rules enforced in Pydantic, error-specific retries, multi-model reliability eval | [![CI](https://github.com/Diksha159457/Ai-scenario-writer/actions/workflows/ci.yml/badge.svg)](https://github.com/Diksha159457/Ai-scenario-writer/actions/workflows/ci.yml) |
+| [**Voice_agent**](https://github.com/Diksha159457/Voice_agent) | Voice-controlled agent: speech → intent → tools (files, code, summaries) | Filesystem sandbox tested against path-traversal and symlink attacks; [live demo](https://voice-agent-8085.onrender.com) | [![CI](https://github.com/Diksha159457/Voice_agent/actions/workflows/ci.yml/badge.svg)](https://github.com/Diksha159457/Voice_agent/actions/workflows/ci.yml) |
+
+### 📊 Data & NLP projects
+
+| Project | What it does | Highlights | Status |
+|---|---|---|---|
+| [**Hindi → English Translator**](https://github.com/Diksha159457/Hindi-to-English-Dataset-Translator-using-Python) | Batch-translates Hindi CSV columns, with optional sentiment analysis | MarianMT or Google backends, dedupe + SQLite cache, real-model test in CI | [![CI](https://github.com/Diksha159457/Hindi-to-English-Dataset-Translator-using-Python/actions/workflows/ci.yml/badge.svg)](https://github.com/Diksha159457/Hindi-to-English-Dataset-Translator-using-Python/actions/workflows/ci.yml) |
+| [**IPL 2022 Analytics**](https://github.com/Diksha159457/ipl-analytics-project) | Streamlit dashboard + reproducible analysis of the 2022 season | Significance tests on every headline claim; par-score model (LOOCV 76%); [live app](https://ipl-analytics-project-zx8cnbgusgmujruunxov7n.streamlit.app/) | [![CI](https://github.com/Diksha159457/ipl-analytics-project/actions/workflows/ci.yml/badge.svg)](https://github.com/Diksha159457/ipl-analytics-project/actions/workflows/ci.yml) |
+| [**COVID-19 Dashboard**](https://github.com/Diksha159457/covid-data-visualization) | Static Plotly dashboard of global COVID data | Versioned data snapshot, tests gate the GitHub Pages deploy; [live site](https://diksha159457.github.io/covid-data-visualization/) | [![CI](https://github.com/Diksha159457/covid-data-visualization/actions/workflows/ci.yml/badge.svg)](https://github.com/Diksha159457/covid-data-visualization/actions/workflows/ci.yml) |
+
+> Every project above ships with tests and CI. Where a model is involved, the README reports how it was evaluated.
 
 ### 🛠️ Tech stack
 
@@ -39,6 +50,11 @@
   <img src="https://img.shields.io/badge/FAISS-00599C?style=flat-square"/>
   <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
   <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black"/>
+  <img src="https://img.shields.io/badge/Pydantic-E92063?style=flat-square&logo=pydantic&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black"/>
+  <img src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white"/>
+  <img src="https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white"/>
+  <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white"/>
   <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white"/>
 </p>
 
